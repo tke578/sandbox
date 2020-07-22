@@ -19,11 +19,6 @@ jobs:
       - node/install-packages: 
           pkg-manager: yarn
           cache-key: "yarn.lock"
-      - run:
-          name: Install SQLITE
-          command: |
-            apt update
-            apt-get install libsqlite3-dev
           
   test:  # our next job, called "test"
     # we run "parallel job containers" to enable speeding up our tests;
