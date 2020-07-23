@@ -224,7 +224,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (~> 3.2)
-  pg (~> 0.18)
+  pg (~> 0.21.0)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
   rspec-rails (= 4.0.0.beta3)
